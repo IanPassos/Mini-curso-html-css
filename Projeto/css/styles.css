@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #930505;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #470101;
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: #EEE;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    background-color: #930505;
+    color: #FFF;
+    text-align: center;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../img/CamisaVitoria.png');
+}
+
+#img-2 {
+    background-image: url('../img/CamisaBarcelona.png');
+}
+#img-3 {
+    background-image: url('../img/CamisaDortmund.png');
+}
+#img-4 {
+    background-image: url('../img/CamisaLiverpool.png');
+}
+#img-5 {
+    background-image: url('../img/CamisaMadrid.png');
+}
+#img-6 {
+    background-image: url('../img/CamisaMilan.png');
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 2px solid #FFF;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #470101;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    background-color: #d50808;
+}
+
+/* Footer */
+
+footer {
+    background-color: #930505;
+    color: #FFF;
+    border-top: 3px solid #470101;
+    text-align: center;
+    padding: 70px;
+}
